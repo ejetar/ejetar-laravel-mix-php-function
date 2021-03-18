@@ -1,0 +1,34 @@
+{
+	"name": "ejetar/laravel-mix-php-function",
+	"description": "A lightweight and simple library that adds Laravel Mix's mix() function to your PHP project \uD83D\uDE80",
+	"homepage": "https://ejetar.com/projects/laravel-mix-php-function",
+	"type": "library",
+	"license": "MIT",
+	"version": "v1.0.0",
+	"authors": [
+		{
+			"name": "Guilherme Almeida Girardi",
+			"email": "guilhermeagirardi@gmail.com",
+			"homepage": "https://guilhermegirardi.com",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"php",
+		"laravel",
+		"mix"
+	],
+	"autoload": {
+		"psr-4": {
+			"Ejetar\\LaravelMixPhpFunction\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"require": {
+		"ext-json": "*"
+	}
+}
